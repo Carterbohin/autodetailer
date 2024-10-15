@@ -441,15 +441,15 @@ section img {
 }
 
 .bounce:hover img {
-  animation: myBounce 1s 1;
+  animation: myBounce 2s 1;
 }
 
 .spin:hover img {
-  animation: mySpin 1s 1;
+  animation: mySpin 2s 6;
 }
 
 .pulse:hover img {
-  animation: myPulse 1s 1;
+  animation: myPulse 3s 2;
 }
 
 .color:hover img {
@@ -457,6 +457,55 @@ section img {
 }
 
 /*bounce animation*/
+@keyframes myBounce {
+  0% {
+    bottom: 0px;
+    animation-timing-function: ease-out;
+  }
+  25% {
+    bottom: 15px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    bottom: 0px;
+    animation-timing-function: ease-out;
+  }
+  75% {
+    bottom: 7px;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    bottom: 0px;
+    animation-timing-function: ease-out;
+  }
+}
+/*spin animation*/
+@keyframes mySpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*Pulse animation*/
+@keyframes myPulse {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.5);
+  }
+  50% {
+    transform: scale(0.75);
+  }
+  75% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 main h1 {
   background-color: red 1px;
   margin: 0;
