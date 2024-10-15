@@ -166,8 +166,18 @@ section img {
     50% {transform: scale(.75);}
     75% {transform: scale(1.25);}
     100% {transform: scale(1.0);}
+}//end of pulse
+/*start color*/
+@keyframes myColor {
+    0% {background-color: red;}
+    15% {background-color: orange;}
+    30% {background-color: yellow;}
+    45% {background-color: green;}
+    60% {background-color: blue;}
+    75% {background-color: indigo;}
+    90% {background-color: violet;}
+    100% {background-color: red;}
 }
-
 
 
 

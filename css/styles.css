@@ -506,6 +506,37 @@ section img {
     transform: scale(1);
   }
 }
+/*start color*/
+@keyframes myColor {
+  0% {
+    background-color: red;
+  }
+  15% {
+    background-color: orange;
+  }
+  30% {
+    background-color: yellow;
+  }
+  45% {
+    background-color: green;
+  }
+  60% {
+    background-color: blue;
+  }
+  75% {
+    background-color: indigo;
+  }
+  90% {
+    background-color: violet;
+  }
+  100% {
+    background-color: red;
+  }
+}
+.bubble {
+  background-color: 10px;
+}
+
 main h1 {
   background-color: red 1px;
   margin: 0;
