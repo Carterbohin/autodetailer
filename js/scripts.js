@@ -15,14 +15,17 @@ console.log(reviews);
 const myTarget = document.querySelector("#cards");
 
 for (let x = 0; x < reviews.length; x++) {
-    console.log(reviews[x].year)
+   
     //create a section
     const mySection = document.createElement('section');
+
     const myName = document.createElement('h2');
-    myName.textContent = reviews[x].name
+    myName.textContent = reviews[x].name//display names
+
     const myReview = document.createElement('p');
-    myReview.textContent = reviews[x].text; // Changed 'text' to 'comment'
-    
+    mySection.textContent = reviews[x].text; // Changed 'text' to 'comment'
+   
+
     const myRating = document.createElement('div')
  
 
