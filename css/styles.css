@@ -449,7 +449,7 @@ section img {
 }
 
 .pulse:hover img {
-  animation: myPulse 3s 2;
+  animation: myPulse 2s 2;
 }
 
 .color:hover img {
