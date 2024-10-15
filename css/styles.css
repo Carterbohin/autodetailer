@@ -533,6 +533,21 @@ section img {
     background-color: red;
   }
 }
+div.reviewWrapper {
+  background-color: #f7f7f7;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#cards {
+  text-align: center;
+}
+#cards h3 {
+  margin: 2rem 10px 0 10px;
+  text-align: center;
+  color: #000;
+}
+
 main h1 {
   background-color: red 1px;
   margin: 0;
