@@ -412,6 +412,50 @@ header span {
   left: 10%;
 }
 
+div.cards {
+  padding: 0 8px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 24px 8px;
+}
+
+section {
+  border: 1px dashed deeppink;
+  padding: 1rem;
+  text-align: center;
+}
+
+section img {
+  width: 50px;
+  position: relative;
+}
+
+.shape {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: black 1px solid;
+  margin: auto;
+  background-color: red;
+}
+
+.bounce:hover img {
+  animation: myBounce 1s 1;
+}
+
+.spin:hover img {
+  animation: mySpin 1s 1;
+}
+
+.pulse:hover img {
+  animation: myPulse 1s 1;
+}
+
+.color:hover img {
+  animation: myColor 5s 3;
+}
+
+/*bounce animation*/
 main h1 {
   background-color: red 1px;
   margin: 0;
