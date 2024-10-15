@@ -30,6 +30,11 @@ header {
     column-gap: $gutter;
     align-items: center; //vertically
     padding: .5rem $gutter;
+    a {
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+    }
     span {
         font-size: 1.6rem;
         font-weight: $lightWeight;
