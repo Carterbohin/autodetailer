@@ -16,15 +16,25 @@ const myTarget = document.querySelector("#cards");
 
 for (let x = 0; x < reviews.length; x++) {
     console.log(reviews[x].year)
+    //create a section
     const mySection = document.createElement('section');
-    
     const myName = document.createElement('h2');
-    myName.textContent = reviews[x].name;
-
+    myName.textContent = reviews[x].name
     const myReview = document.createElement('p');
-    myReview.textContent = reviews[x].comment; // Changed 'text' to 'comment'
+    myReview.textContent = reviews[x].text; // Changed 'text' to 'comment'
     
+    const myRating = document.createElement('div')
+ 
+
+
+for (let step = 0; step<reviews[x].stars; step ++) {
+    const genIndicator = document.createElement('img')
+    genIndicator.src = "../images/star-outline.svg"
+    myRating.appendChild(genIndicator)
+}
+
+    //build the child elements
     mySection.appendChild(myName);
-    mySection.appendChild(myReview);
+    mySection.appendChild(myRating);
     myTarget.appendChild(mySection);
 }
