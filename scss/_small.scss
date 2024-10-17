@@ -26,6 +26,8 @@ body {
 /* --------------------------- HEADER --------------------------- */
 #headerWrapper {border-bottom: 1px solid $greyColor;}
 header {
+    width: auto;
+    background-color: $greyColor;
     display: grid;
     grid-template-columns: 50px auto;
     column-gap: $gutter;
@@ -70,6 +72,7 @@ header {
     cursor: pointer;
 }
 #theNav ul {
+
     font-size: large;
     list-style-type: none;
     margin: 0;

@@ -326,6 +326,8 @@ body {
 }
 
 header {
+  width: auto;
+  background-color: #ccc;
   display: grid;
   grid-template-columns: 50px auto;
   -moz-column-gap: 10px;
