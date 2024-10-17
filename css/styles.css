@@ -357,7 +357,7 @@ header span {
 #theButton {
   border: none;
   background: none;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 0;
   width: 44px;
   height: 44px;
@@ -368,6 +368,7 @@ header span {
 }
 
 #theNav ul {
+  font-size: large;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -380,7 +381,7 @@ header span {
   border-bottom: 1px solid #ccc;
 }
 #theNav ul li.active a {
-  color: #72be00;
+  color: #3990c3;
 }
 
 #theButton.open::before {
@@ -593,7 +594,7 @@ main h1 {
   margin: 0;
   padding: 1rem 10px 0.5rem 10px;
   font-size: 2rem;
-  color: #72be00;
+  color: #020f48;
   font-weight: 300;
 }
 main p {

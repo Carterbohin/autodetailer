@@ -60,7 +60,7 @@ header {
 #theButton {
     border: none;
     background: none;
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 0;
     width: 44px;
     height: 44px;
@@ -70,6 +70,7 @@ header {
     cursor: pointer;
 }
 #theNav ul {
+    font-size: large;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -81,7 +82,7 @@ header {
         border-bottom: 1px solid $greyColor;
     }
     li.active a {
-        color: $secondaryColor;
+        color: $accentColor;
     }
 } //end of unordered
 
@@ -244,7 +245,7 @@ main {
         margin: 0;
         padding: 1rem $gutter.5rem $gutter;
         font-size: 2rem;
-        color: $secondaryColor;
+        color: $primaryColor;
         font-weight: $lightWeight
     }
     p {
