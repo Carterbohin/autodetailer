@@ -317,6 +317,7 @@ body {
   font-family: "Spline Sans", sans-serif;
   font-weight: 300;
   min-width: 320px;
+  background-color: #e5e5e5;
 }
 
 /* --------------------------- HEADER --------------------------- */
@@ -336,11 +337,12 @@ header a {
   text-align: center;
   text-decoration: none;
   color: #000;
+  font-size: x-largeß;
 }
 header span {
   font-size: 1.6rem;
   font-weight: 300;
-  color: #1d295f;
+  color: #020f48;
   text-align: center;
 }
 
@@ -368,14 +370,14 @@ header span {
   padding: 0;
 }
 #theNav ul li a {
-  color: #1d295f;
+  color: #020f48;
   display: block;
   padding: 0.75rem 10px;
   text-decoration: none;
   border-bottom: 1px solid #ccc;
 }
 #theNav ul li.active a {
-  color: #7c1d47;
+  color: #72be00;
 }
 
 #theButton.open::before {
@@ -561,7 +563,7 @@ main h1 {
   margin: 0;
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #7c1d47;
+  color: #72be00;
   font-weight: 300;
 }
 main p {
@@ -572,7 +574,7 @@ main p {
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-  background-color: #1d295f;
+  background-color: #020f48;
 }
 
 footer {
