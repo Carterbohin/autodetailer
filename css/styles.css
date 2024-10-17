@@ -342,7 +342,7 @@ header a {
   font-size: x-large;
 }
 header a:hover {
-  color: #0A558A;
+  color: #72be00;
 }
 header span {
   font-size: 1.6rem;
@@ -383,7 +383,8 @@ header span {
   border-bottom: 1px solid #ccc;
 }
 #theNav ul li.active a {
-  color: #3990c3;
+  color: rgb(18, 31, 128);
+  font-weight: bold;
 }
 
 #theButton.open::before {
