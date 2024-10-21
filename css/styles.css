@@ -339,7 +339,7 @@ header a {
   text-align: center;
   text-decoration: none;
   color: #000;
-  font-size: x-large;
+  font-size: medium;
 }
 header a:hover {
   color: #72be00;
@@ -359,7 +359,7 @@ header span {
 #theButton {
   border: none;
   background: none;
-  font-size: 3rem;
+  font-size: 1rem;
   padding: 0;
   width: 44px;
   height: 44px;
@@ -421,7 +421,7 @@ header span {
   padding: 1rem;
   text-align: center;
   color: #020f48;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   top: calc(50% - 35px);
   width: 80%;
   left: 10%;
@@ -642,6 +642,12 @@ footer a {
   }
   #navWrapper {
     border-bottom: 1px solid #ccc;
+  }
+  header a {
+    font-size: x-large;
+  }
+  .carHero p {
+    font-size: 2.5rem;
   }
 }
 @media only screen and (min-width: 64rem) {
